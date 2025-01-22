@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, c, hehe;
+    int a, b, c,;
+    float hehe;
     scanf("%d %d %d", &a, &b, &c);
-    hehe = (a+b+c)/3;
+    hehe = (a+b+c)/3.0;
     printf("Average: %.2f\n", hehe);
     return 0;
 }
