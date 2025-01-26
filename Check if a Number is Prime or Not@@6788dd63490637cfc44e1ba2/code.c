@@ -3,7 +3,7 @@
 int main() {
     int tanya;
     scanf("%d",&tanya);
-    if ( tanya > 0 && tanya%1 == 0 && tanya%tanya ==0)
+    if (tanya > 1 && tanya%1 == 0 && tanya%tanya ==0)
     printf("Prime");
     else
     printf("Not Prime");
