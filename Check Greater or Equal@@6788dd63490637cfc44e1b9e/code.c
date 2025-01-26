@@ -6,6 +6,6 @@ int main() {
     if (tanvu >= baby)
     printf("Yes");
     else
-    printf("No")
+    printf("No");
     return 0;
 }
