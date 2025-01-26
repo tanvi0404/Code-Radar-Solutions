@@ -6,6 +6,6 @@ int main() {
     if(america >= 60)
     printf("Eligible");
     else
-    printf("Not Eligible")
+    printf("Not Eligible");
     return 0;
 }
