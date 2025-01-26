@@ -6,6 +6,6 @@ int main() {
     if (tanya>=0 && tanya <= 100)
     printf("In Range");
     else 
-    print("Out of Range");
+    printf("Out of Range");
     return 0;
 }
