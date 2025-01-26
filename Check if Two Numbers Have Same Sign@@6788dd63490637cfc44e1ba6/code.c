@@ -6,6 +6,6 @@ int main() {
     if ((chole >=0 && bhature >= 0)||(chole < 0 && bhature < 0) )
     printf("Same Sign");
     else 
-    printf("Different Sign")
+    printf("Different Sign");
     return 0;
 }
