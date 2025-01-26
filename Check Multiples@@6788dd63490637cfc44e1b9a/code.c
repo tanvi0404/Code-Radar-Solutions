@@ -6,6 +6,6 @@ int main() {
     if (hello%guys == 0)
     printf("Yes");
     else
-    printf("No")
+    printf("No");
     return 0;
 }
