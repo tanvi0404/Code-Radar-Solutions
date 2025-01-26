@@ -2,7 +2,7 @@
 
 int main() {
     char tanvi;
-    scanf("%c", tanvi);
+    scanf("%c", &tanvi);
     if (tanvi >= A && tanvi <= Z)
     printf("Uppercase");
     else if(tanvi >= a && tanvi <= z)
