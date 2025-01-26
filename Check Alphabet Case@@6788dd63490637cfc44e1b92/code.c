@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char tanvu;
+    char tanvi;
     scanf("%c",&tanvi);
     if (tanvi >= A && tanvi <= Z)
     printf("Uppercase");
