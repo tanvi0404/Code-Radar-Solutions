@@ -8,6 +8,6 @@ int main() {
     else if (tanvi <0)
     printf("Negative");
     else
-    printf("Zero")
+    printf("Zero");
     return 0;
 }
