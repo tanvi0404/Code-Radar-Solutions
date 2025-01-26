@@ -2,7 +2,7 @@
 
 int main() {
     int tanvi,tanya,shreya;
-    if (tanvi == tanya == shreya)
+    if (tanvi == tanya && tanya == shreya)
     printf("Equilateral");
     else if (tanvi == shreya || shreya == tanya || tanya == tanvi)
     printf("Isosceles");
