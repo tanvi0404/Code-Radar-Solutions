@@ -6,6 +6,6 @@ int main() {
     if (chocolava >= 18)
     printf("Eligible");
     else
-    printf("Not Eligible")
+    printf("Not Eligible");
     return 0;
 }
