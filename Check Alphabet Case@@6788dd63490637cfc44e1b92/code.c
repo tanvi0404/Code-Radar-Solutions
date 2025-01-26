@@ -4,10 +4,10 @@ int main() {
     char tanvi;
     scanf("%c", &tanvi);
     if (tanvi >= 'A' && tanvi <= 'Z')
-    printf("Uppercase\n");
+    printf("Uppercase");
     else if(tanvi >= 'a' && tanvi <= 'z')
-    printf("Lowercase\n");
+    printf("Lowercase");
     else
-    printf("Not an alphabet\n");
+    printf("Not an alphabet");
     return 0;
 }
