@@ -6,6 +6,6 @@ int main() {
     if (tanya%1 == 0 && tanya%tanya ==0)
     printf("Prime");
     else
-    printf("Not Prime")
+    printf("Not Prime");
     return 0;
 }
