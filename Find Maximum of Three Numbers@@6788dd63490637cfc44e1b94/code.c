@@ -6,8 +6,8 @@ int main() {
     if (tanvi > shreya && shreya > tanya)
     printf("tanvi");
     else if (shreya > tanvi && tanvi > tanya)
-    printf("shreya")
+    printf("shreya");
     else
-    printf("tanya")
+    printf("tanya");
     return 0;
 }
