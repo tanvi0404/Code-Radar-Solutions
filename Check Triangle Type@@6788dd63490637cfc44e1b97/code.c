@@ -8,6 +8,6 @@ int main() {
     else if (tanvi == shreya || shreya == tanya || tanya == tanvi)
     printf("Isosceles");
     else
-    printf("scalene");
+    printf("Scalene");
     return 0;
 }
