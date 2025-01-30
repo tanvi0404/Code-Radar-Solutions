@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int tanvi,count;
+    int tanvi,count=0;
     scanf("%d",&tanvi);
-    while(tanvi&1==0)
+    while((tanvi&1)==0)
    {tanvi=tanvi>>1;
     count++;
 }
