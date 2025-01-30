@@ -3,6 +3,6 @@
 int main() {
     int pani,puri;
     scanf("%d %d",&pani,&puri);
-    printf("%u",puri &(1<<pani));
+    printf("%u",pani &(1<<puri));
     return 0;
 }
