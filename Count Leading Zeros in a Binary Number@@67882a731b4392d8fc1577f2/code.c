@@ -5,7 +5,7 @@ int main() {
     scanf("%u",&tanvi);
     while(tanvi!=0){
         a++;
-        tanvi=tanvi>>1
+        tanvi=tanvi>>1;
     }
     printf("%u",32-a);
     return 0;
