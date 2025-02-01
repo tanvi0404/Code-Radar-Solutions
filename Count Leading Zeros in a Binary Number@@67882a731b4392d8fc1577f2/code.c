@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int tanvi;
-    scanf("%d",&tanvi);
-    int count = 31;
-    while((tanvi&1)==0){
-        tanvi=tanvi>>31;
-        count--;
+    unsigned tanvi,a;
+    scanf("%u",&tanvi);
+    while(tanvi!=0){
+        a++;
+        tanvi=tanvi>>1
     }
-    printf("%d",count);
+    printf("%u",32-a);
     return 0;
 }
+    
