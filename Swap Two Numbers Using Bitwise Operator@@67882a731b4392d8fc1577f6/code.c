@@ -6,6 +6,6 @@ int main() {
     chole = chole^bhature;
     bhature = bhature^chole;
     chole = chole^bhature;
-    printf("%d %d",a,b);
+    printf("%d %d",chole,bhature);
     return 0;
 }
