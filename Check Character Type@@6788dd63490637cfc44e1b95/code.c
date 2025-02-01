@@ -14,7 +14,7 @@ if((a>='a'&& a<='z')||a>='A'&& a<='Z'){
     }else{
     printf("Special Character");
     } 
-}   
+    }   
     return 0;
 
 }
