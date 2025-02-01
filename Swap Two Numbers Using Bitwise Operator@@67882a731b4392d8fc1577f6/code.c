@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int chole,bhature;
+    scanf("%d %d",&chole,&bhature);
+    chole = chole^bhature;
+    bhature = bhature^chole;
+    chole = chole^bhature;
+    printf("%d %d",a,b);
+    return 0;
+}
