@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main(){
     int rows,cols;
     scanf("%d %d",&rows,&cols);
