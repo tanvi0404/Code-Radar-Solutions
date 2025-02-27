@@ -7,7 +7,7 @@ int main(){
             if(j<=N-i)
             printf(" ");
             else
-            printf("* ");
+            printf("*");
         }printf("\n");
     }return 0;
 }
