@@ -5,7 +5,6 @@ int main(){
     for(int i=1;i<=n;i++){
         for(char a = 'A';a<'A'+i;a++){
             printf("%c",a);
-            a++;
         }
         printf("\n");
     }
