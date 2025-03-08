@@ -13,20 +13,4 @@ int isPrime(int num) {
     return 1;
 }
 
-int main() {
-    int t;
-    scanf("%d", &t);
-
-    while(t--) {
-        int num;
-        scanf("%d", &num);
-
-        if (isPrime(num)) {
-            printf("1\n");
-        } else {
-            printf("0\n");
-        }
-    }
-
-    return 0;
-}
+i
