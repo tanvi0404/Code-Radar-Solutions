@@ -2,7 +2,7 @@ int fact(int a){
     if(a==0||a==1){
         return 1;
     }
-    if(n<0){
+    if(a<0){
         num = -num;
     }
     return a*fact(a-1);
