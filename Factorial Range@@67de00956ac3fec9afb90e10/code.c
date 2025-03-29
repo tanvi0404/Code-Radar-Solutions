@@ -3,7 +3,7 @@ int fact(int a){
         return 1;
     }
     if(a<0){
-        num = -num;
+        a = -a;
     }
     return a*fact(a-1);
 }
