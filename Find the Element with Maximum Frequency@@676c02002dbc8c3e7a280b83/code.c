@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 int main() {
     int N,i,maxcount=0,maxelement;
