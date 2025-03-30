@@ -11,8 +11,8 @@ int main(){
         max=arr[i];
         }}
     for(i=0;i<N;i++){
-        if((arr[i]>secondmax)&&(secondmax<max)){
-            secondmax=arr[i];
+        if((arr[i]>secondmax)&&(arr[i]<max)){
+            secondmax= arr[i];
         }
     }
     printf("%d",secondmax);
