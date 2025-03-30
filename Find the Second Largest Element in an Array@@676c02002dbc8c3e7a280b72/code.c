@@ -5,7 +5,7 @@ int main(){
     int arr[N];
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
-    }
+    }if(N>2){
     for(i=0;i<N;i++){
         if(arr[i]>max){
         max=arr[i];
@@ -15,6 +15,9 @@ int main(){
             secondmax= arr[i];
         }
     }
-    printf("%d",secondmax);
+    printf("%d",secondmax);}
+    else{
+        printf("-1");
+    }
     
 }
