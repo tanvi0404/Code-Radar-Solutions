@@ -8,11 +8,10 @@ int main(){
     }
     for(i=2;i*i<N;i++){
         if(N%i==0){
-            return 0;
+            return 0;}
         else
         count++;
         }
-    }
     printf("%d",count);
 
     return 0;
