@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int N,i,largest=0;
+    int N,i,largest=0,found=0;
     scanf("%d",&N);
     int arr[N];
     for(i=0;i<N;i++){
@@ -8,8 +8,13 @@ int main(){
     }
     for(i=0;i<N;i=i+2){
         if(arr[i]>largest){
-            printf("%d",arr[i]);
+            largest = arr[i];
+            found = 1;
         }
     }
-    printf("-1");
+    if(found){
+        printf("%d",largest);
+    }
+    else{
+    printf("-1");}
 }
