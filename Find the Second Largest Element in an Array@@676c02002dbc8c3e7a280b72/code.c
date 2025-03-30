@@ -18,8 +18,10 @@ int main(){
             secondmax= arr[i];
         }
     }
-    if(secondmax==max)
-    printf("-1");}
+    printf("%d",secondmax);}
     else{
-        printf("%d",secondmax);
-    }}
+        printf("-1");
+    }
+    
+}
+2 testcases ni pass horhe
