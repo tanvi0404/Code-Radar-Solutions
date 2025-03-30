@@ -7,7 +7,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
      for (i = 0; i < N ; i++) {
-        if (arr[i] > arr[i + 1]) {
+        if (arr[i] >= arr[i + 1]) {
             sorted = 0; 
             break;
         }
