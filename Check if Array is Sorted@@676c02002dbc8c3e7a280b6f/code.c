@@ -8,10 +8,8 @@ int main(){
         if(arr[i]>arr[i+1]){
             break;
             printf("Not Sorted");
-        }
-        else{
+        }}
             printf("Sorted");
-        }
-    }
+
     return 0;
 }
