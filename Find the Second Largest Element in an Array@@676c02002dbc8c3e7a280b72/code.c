@@ -24,4 +24,3 @@ int main(){
     }
     
 }
-2 testcases ni pass horhe
