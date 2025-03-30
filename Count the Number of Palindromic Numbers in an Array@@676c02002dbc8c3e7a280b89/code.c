@@ -1,3 +1,4 @@
+#include <stdio.h>
 int ispalindrome(int a){
     int rev=0,temp=a;
     while(a>0){
