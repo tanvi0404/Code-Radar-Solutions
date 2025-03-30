@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main(){
     int N,i,key,count=0;
-    scanf("%d",&N);
+    scanf("%d %d",&N,&key);
     int arr[N];
     for(i=0;i<N;i++){
     scanf("%d",&arr[i]);
 }
-scanf("%d",&key);
 for(i=0;i<N;i++){
     if(arr[i]>key){
         count++;
