@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 int sumofdigits(int num){
     if(num==0)
