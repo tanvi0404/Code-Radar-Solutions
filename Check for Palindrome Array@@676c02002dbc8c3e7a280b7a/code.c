@@ -11,7 +11,7 @@ int main(){
         arr[i]=arr[N-i-1];
         arr[N-i-1]=temp;
     }
-    if(temp==arr[N]){
+    if(arr[i]==arr[N-i-1]){
         printf("YES");
     }
     else{
