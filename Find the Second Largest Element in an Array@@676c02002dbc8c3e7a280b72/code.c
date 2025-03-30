@@ -22,4 +22,4 @@ int main(){
     printf("-1");}
     else{
         printf("%d",secondmax);
-    }
+    }}
