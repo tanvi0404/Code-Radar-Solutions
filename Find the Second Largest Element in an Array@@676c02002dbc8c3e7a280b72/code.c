@@ -5,9 +5,6 @@ int main(){
     int arr[N];
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
-        if(arr[i]<0){
-            arr[i]=-arr[i];
-        }
     }if(N>=2){
     for(i=0;i<N;i++){
         if(arr[i]>max){
