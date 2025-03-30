@@ -1,9 +1,10 @@
+#include <stdio.h>
 int main(){
-    int i,N,k,shift;
+    int N,i,k,shifts,temp;
     scanf("%d",&N);
     int arr[N];
     for(i=0;i<N;i++){
-    scanf("%d",&arr[i]);
+        scanf("%d",&arr[i]);
     }
     scanf("%d",&shifts);
     for(k=1;k<=shifts;k++){
