@@ -8,6 +8,7 @@ int main(){
     }
     for(i=0;i<N;i++){
         total = total+arr[i];
+            printf("%d ",total);
     }
-    printf("%d ",total);
+return 0;
 }
