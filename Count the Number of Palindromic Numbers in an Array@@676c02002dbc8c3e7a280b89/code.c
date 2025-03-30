@@ -16,10 +16,10 @@ int main(){
     int arr[a];
     for(i=0;i<a;i++){
         scanf("%d",&arr[i]);
-    }
+    
     if(ispalindrome(arr[i])){
         count++;
-    }
+    }}
     printf("%d",count);
     return 0;
 }
