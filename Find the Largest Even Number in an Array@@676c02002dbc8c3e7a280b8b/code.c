@@ -1,23 +1,39 @@
 #include <stdio.h>
-int main(){
-    int N,i,largest=0,found=0;
-    scanf("%d",&N);
-     if (N == 0) {
+
+int main() {
+    int N, i, largest, found = 0;
+    
+    scanf("%d", &N);
+    
+    if (N == 0) {
         printf("-1");
-        return 0;
-    int arr[N];
-    for(i=0;i<N;i++){
-    scanf("%d",&arr[i]);
+        return 0;  // If no elements, directly return -1.
     }
-    for(i=0;i<N;i=i+2){
-        if(arr[i]>largest){
+    
+    int arr[N];
+    
+    // Input array elements
+    for (i = 0; i < N; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    // Initialize 'largest' to the first element
+    largest = arr[0];
+    
+    // Find the largest element at even indices (0, 2, 4, ...)
+    for (i = 0; i < N; i = i + 2) {
+        if (arr[i] > largest) {
             largest = arr[i];
-            found = 1;
+            found = 1;  // Mark that a valid element was found at even indices
         }
     }
-    if(found){
-        printf("%d",largest);
+
+    // If no valid element was found, print -1
+    if (found) {
+        printf("%d", largest);  // Print the largest element
+    } else {
+        printf("-1");  // No valid element found at even indices
     }
-    else{
-    printf("-1");}
-}}
+
+    return 0;
+}
