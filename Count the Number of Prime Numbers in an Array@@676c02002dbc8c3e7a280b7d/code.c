@@ -6,7 +6,7 @@ int main(){
     for(i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    for(i=2;i*i<N;i++){
+    for(i=2;i*i<=N;i++){
         if(N%i==0){
             return 0;}
         else
