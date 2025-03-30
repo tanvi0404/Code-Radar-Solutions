@@ -18,9 +18,8 @@ int main(){
             secondmax= arr[i];
         }
     }
-    printf("%d",secondmax);}
+    if(secondmax==max)
+    printf("-1");}
     else{
-        printf("-1");
+        printf("%d",secondmax);
     }
-    
-}
