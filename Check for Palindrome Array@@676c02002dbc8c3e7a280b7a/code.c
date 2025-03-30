@@ -1,20 +1,25 @@
 #include <stdio.h>
-int main(){
-    int N,i,temp;
-    scanf("%d",&N);
+
+int main() {
+    int N, i;
+    scanf("%d", &N);
     int arr[N];
-    for(i=0;i<N;i++){
-        scanf("%d",&arr[i]);
+
+    // Input array elements
+    for (i = 0; i < N; i++) {
+        scanf("%d", &arr[i]);
     }
-    for(i=0;i<N/2;i++){
-        temp = arr[i];
-        arr[i]=arr[N-i-1];
-        arr[N-i-1]=temp;
+
+    // Check if the array is a palindrome
+    for (i = 0; i < N / 2; i++) {
+        if (arr[i] != arr[N - i - 1]) {
+            printf("NO");
+            return 0; // Exit early if not a palindrome
+        }
     }
-    if(arr[i]==arr[N-i-1]){
-        printf("YES");
-    }
-    else{
-        printf("NO");
-    }
+
+    // If loop completes, the array is a palindrome
+    printf("YES");
+
+    return 0;
 }
