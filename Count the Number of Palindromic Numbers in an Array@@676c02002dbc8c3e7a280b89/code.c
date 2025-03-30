@@ -16,7 +16,7 @@ int main(){
     for(i=0;i<a;i++){
         scanf("%d",&arr[i]);
     }
-    if(ispalindrome(arr[a])){
+    if(ispalindrome(arr[i])){
         count++;
     }
     printf("%d",count);
