@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&N);
     int arr[N];
     for(i=0;i<N;i++){
-        scanf("%d",&arr[N]);
+        scanf("%d",&arr[i]);
     }
     for(i=0;i<N;i++){
         if(arr[i]>max){
@@ -12,7 +12,7 @@ int main(){
         }}
     for(i=0;i<N;i++){
         if((arr[i]>secondmax)&&(secondmax<max)){
-            arr[i]=secondmax;
+            secondmax=arr[i];
         }
     }
     printf("%d",secondmax);
