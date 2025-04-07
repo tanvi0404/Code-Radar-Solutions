@@ -1,23 +1,29 @@
 #include <stdio.h>
-int main(){
-    int i,N,max=0,secondmax=0;
-    scanf("%d",&N);
+#include <limits.h>
+int main() {
+    int N, i, max, secondlargest;
+    scanf("%d", &N);
+    if (N < 2) {
+        printf("-1");
+        return 0;
+    }
     int arr[N];
-    for(i=0;i<N;i++){
-        scanf("%d",&arr[i]);
-    }if(N>2){
-    for(i=0;i<N;i++){
-        if(arr[i]>max){
-        max=arr[i];
-        }}
-    for(i=0;i<N;i++){
-        if((arr[i]>secondmax)&&(arr[i]<max)){
-            secondmax= arr[i];
+    for (i = 0; i < N; i++) {
+        scanf("%d", &arr[i]);
+    }
+    max = secondlargest = INT_MIN;
+    for (i = 0; i < N; i++) {
+        if (arr[i] > max) {
+            secondlargest = max;
+            max = arr[i];
+        } else if (arr[i] > secondlargest && arr[i] < max) {
+            secondlargest = arr[i];
         }
     }
-    printf("%d",secondmax);}
-    else{
+    if (secondlargest == INT_MIN || secondlargest == max) {
         printf("-1");
+    } else {
+        printf("%d", secondlargest);
     }
+    return 0;
 }
-
